@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <h1>This project automates the deployment of a Docker-based web application on AWS infrastructure using Terraform. </h1>
+    <h3>The key components include:
+
+        <ol>
+            <li>
+                Provisioning a VPC, subnet, security group, internet gateway, and EC2 instance.
+            </li>
+            <li>
+                Configuring networking for internet access, including an elastic IP.
+            </li>
+            <li>
+                Installing Docker on the EC2 instance and running the web app container.
+            </li>
+            <li>
+                Outputting the public IP for accessing the deployed application.
+            </li>
+        </ol>
+    </h3>
+
+    <h3>Terraform is used to create the infrastructure as code, making the deployment repeatable and easily modifiable. The web app runs in a Docker container, providing a consistent runtime environment. </h3>
+    <h3>The Terraform configuration sets up the necessary AWS resources and handles the Docker setup on the EC2 instance through a user data script. This allows the complete deployment to be automated, reducing manual intervention.
+    <h3>The output shows the public IP address, which can be used to access the deployed web application.</p>
+
+    <h4>Here is the GitHub link for my project file
+        <button><a href="https://github.com/Utkarsh067/AWS-Infra-using-Terraform.git">
+            Link
+        </a></button>
+    </h5>
+    
+</body>
+</html>
