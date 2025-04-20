@@ -4,7 +4,7 @@ resource "aws_vpc" "vpc" {
 }
 
 resource "aws_internet_gateway" "igw" {
-  vpc_id = aws_vpc.vpc.id #refrencing vpc id
+  vpc_id = aws_vpc.vpc.id
 }
 
 resource "aws_route_table" "route-table" {
