@@ -40,7 +40,7 @@ Before you begin, ensure you have the following:
 4. **Docker Hub Image**  
    Replace `yourdockerhubusername/imagesName` in the `user_data` section with your actual Docker Hub image name.
 
-   My DockerHub image ```docker pull utkarshjain01/tf-docker```.
+   My DockerHub image ```docker pull utkarshjain01/tf-infra```.
 
 ---
 
