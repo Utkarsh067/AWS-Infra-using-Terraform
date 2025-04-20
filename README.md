@@ -7,7 +7,7 @@ This repository contains a Terraform configuration to provision AWS infrastructu
 ## 🚀 Features
 
 - **VPC**: Custom Virtual Private Cloud (CIDR: `10.0.0.0/16`).
-- **Subnet**: Public subnet (CIDR: `10.0.1.0/24`) in the `us-east-2a` availability zone.
+- **Subnet**: Public subnet (CIDR: `10.0.1.0/24`) in the `ap-sounth-1a` availability zone.
 - **Internet Gateway**: Enables public internet access.
 - **Route Table**: Routes traffic via the Internet Gateway.
 - **Security Group**: Allows inbound traffic for HTTP (80), HTTPS (443), and SSH (22).
@@ -29,7 +29,7 @@ Before you begin, ensure you have the following:
      You will need to provide:
      - **AWS Access Key ID**
      - **AWS Secret Access Key**
-     - **Default region name** (e.g., `us-east-2`).
+     - **Default region name** (e.g., `ap-south-1`).
 
 2. **Terraform**  
    Install Terraform. Refer to the [official guide](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli).
